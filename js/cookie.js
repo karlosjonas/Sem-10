@@ -24,7 +24,7 @@ function mostrarScore() {
 
 //Se encarga de mostrar la puntuacion para obtener el multiplicador :
 function mostrarNbMultiplicacion() {
-    $multiplicacion.innerHTML = "Multipliez x " + nbMultiplicacion + " ( Ponctuation du prochain super Cookie : " + points() + " ) ";
+    $multiplicacion.innerHTML = "Multipliez x " + nbMultiplicacion + " ( points du prochain super Cookie : " + points() + " ) ";
 }
 
 //Se encarga de mostrar la puntuacion para obtener el autoclic :
